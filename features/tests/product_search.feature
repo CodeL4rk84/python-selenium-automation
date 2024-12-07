@@ -1,4 +1,4 @@
-Feature: Test Scenarios for Search functionality
+ Feature: Test Scenarios for Search functionality
 
   Scenario: User can search for a product
     Given Open Google page
