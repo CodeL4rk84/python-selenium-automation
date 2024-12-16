@@ -27,7 +27,11 @@ sleep(4)
 driver.find_element(By.NAME, 'btnK').click()
 
 # verify search results
+<<<<<<< HEAD
 assert 'Bandicoot' in driver.current_url.lower(), f"Expected query not in {driver.current_url.lower()}"
+=======
+assert 'car'.lower() in driver.current_url.lower(), f"Expected query not in {driver.current_url.lower()}"
+>>>>>>> 03f12545d3a464b24fd3f50e56f05a290fd3aff2
 print('Test Passed')
 
 driver.quit()
